@@ -1,4 +1,4 @@
-# my_pantry
+# MyPantry
 MyPantry web application code
 ## Installation Instructions
 1. Clone the repo <br/>
