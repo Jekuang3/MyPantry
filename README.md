@@ -1,5 +1,8 @@
 # MyPantry
 MyPantry web application code
+
+https://docs.google.com/presentation/d/1mIppEksT5fFfdRjTGiRVOEHMl39ukDmxfBMZ9puszRc/edit?usp=sharing
+
 ## Installation Instructions
 1. Clone the repo <br/>
 ```console
