@@ -1,0 +1,15 @@
+extends home
+
+block content
+  br
+  br
+  br
+  div(class="card-flex")
+    each pantry in pantries
+      div(class="card")
+        img(class="card-img" src="/images/calfresh.png")
+        div(class="card-description")
+          div(class="card-title")=pantry.name
+          div=pantry.pantryBio
+          br
+          div=pantry.location

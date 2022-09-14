@@ -1,0 +1,50 @@
+body {
+  background-color: #c4c4c4;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.tab-text {
+  font-family: Playfair Display;
+  font-size: 20px;
+  margin-right: 80px;
+  margin-left: 80px;
+}
+
+hr {
+  color: #c4c4c4;
+}
+.title {
+  display: flex;
+  flex-direction: row;
+  font-family: Playfair Display;
+  font-size: 25px;
+  justify-content: center;
+  margin-right: 430px;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  /* height: 600px; */
+  /* width: 2000px; */
+  justify-content: space-around;
+  margin-left: 350px;
+  margin-right: 350px;
+  margin-bottom: 50px;
+}
+
+.tab-bar {
+  /* position: fixed;
+  bottom: 0;
+  align-items: center;
+   */
+  margin-left: 420px;
+  bottom: 0;
+  position: fixed;
+}

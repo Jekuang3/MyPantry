@@ -1,0 +1,115 @@
+.post-paper {
+  width: 533px;
+  height: 200px;
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+  background-color: white;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+
+.post-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  margin-top: -60px;
+  margin-left: -40px;
+  width: 600px;
+}
+
+.flex-col-container {
+  display: flex;
+  flex-direction: column;
+  /* padding-right: 20px; */
+}
+.post-name {
+  margin-top: 95px;
+  margin-left: 20px;
+  font-family: Lato;
+  font-size: 1.5vw;
+  font-weight: bold;
+}
+
+/* .post-hashtag-name {
+  margin-top: 100px;
+  margin-left: 8px;
+  color: gray;
+} */
+
+.in {
+  font-family: Lato;
+  font-size: 1.5vw;
+  margin-left: 6px;
+  margin-top: 95px;
+}
+
+.logo {
+  height: 22px;
+  width: auto;
+  margin-left: 6px;
+  margin-top: 98px;
+}
+.pantry-name {
+  margin-left: 6px;
+  margin-top: 100px;
+  font-weight: bold;
+}
+.post-role {
+  color: #577a3b;
+  font-family: Roboto;
+  margin-left: 95px;
+  margin-top: -12px;
+}
+
+.three-dots {
+  margin-top: 90px;
+  margin-left: 20px;
+}
+
+.post-text-container {
+  margin: 30px;
+}
+
+.post-text {
+  line-height: 24px;
+  font-size: 20px;
+  color: #577a3b;
+}
+
+.thumbs-up-icon {
+  fill: gray;
+  margin-left: 30px;
+}
+
+.post-reaction-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.num-of-likes {
+  margin-top: 6px;
+  margin-left: 6px;
+}
+
+.comment-icon {
+  margin-left: 16px;
+  margin-top: 4px;
+}
+
+.num-of-comments {
+  margin-top: 6px;
+  margin-left: 6px;
+}
+
+.reply-icon {
+  margin-left: 310px;
+  /* margin-top: 10px; */
+}
+
+.reply-text {
+  margin-left: 5px;
+  margin-top: 6px;
+}
+
+.icon-flex-container {
+  display: flex;
+}

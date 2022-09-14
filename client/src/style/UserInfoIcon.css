@@ -1,0 +1,26 @@
+.UserInfo {
+  display: flex;
+  text-align: right;
+}
+
+.user-info {
+  margin: 10px;
+  margin-left: 12px;
+}
+
+.logout-button {
+  background-color: #cf1111;
+  color: white;
+  font-weight: bold;
+  border-width: 0px;
+  margin-left: 10px;
+  border-radius: 25px;
+  height: 35px;
+  width: 90px;
+  margin-right: 20px;
+  margin-top: 3px;
+}
+
+.logout-button:hover {
+  cursor: pointer;
+}

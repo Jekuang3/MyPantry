@@ -1,0 +1,164 @@
+.screen {
+  background-color: #e0e0e0;
+  height: 900px;
+}
+.App {
+  display: flex;
+  flex-direction: column;
+  height: 250px;
+  background: #f2f2f2;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  margin-top: -20px;
+}
+.pantry-button {
+  border-width: 0;
+  background-color: #f2f2f2;
+}
+.pantry-title {
+  color: #577a3b;
+  font-family: "Playfair Display";
+  font-style: bold;
+  font-size: 70px;
+}
+
+.login-signup-flex {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 500px;
+}
+
+.setup-signup-button {
+  border-width: 0;
+  background-color: #f2f2f2;
+  height: 20px;
+  font-size: 20px;
+}
+
+.line {
+  width: 100px;
+  height: 100px;
+}
+.email-text {
+  margin-left: -200px;
+}
+.username-text {
+  margin-left: -230px;
+}
+
+.password-text {
+  margin-left: -230px;
+}
+.confirm-password-text {
+  margin-left: -170px;
+}
+
+.email-password-flex {
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  /* margin-left: -100px; */
+}
+
+.email-input {
+  background-color: #f6f6f6;
+  border-width: 0;
+  border-radius: 8px;
+  height: 40px;
+  width: 300px;
+  padding-left: 10px;
+}
+
+.input {
+  background-color: #f6f6f6;
+  border-width: 0;
+  border-radius: 8px;
+  height: 40px;
+  width: 300px;
+  padding-left: 10px;
+}
+
+/* .forgotpassword-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #e0e0e0;
+  border-width: 0;
+} */
+.forgotpassword-button {
+  border-width: 0;
+  background-color: #e0e0e0;
+  margin-left: -200px;
+  color: #60a7db;
+}
+
+.login {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* margin-left: -260px; */
+}
+
+.login-button {
+  width: 107px;
+  height: 51px;
+  margin-top: 30px;
+  border-radius: 100px;
+  background-color: #5db075;
+  color: white;
+  border-width: 0px;
+  font-weight: bold;
+}
+
+.setup-sign-up-button {
+  width: 107px;
+  height: 51px;
+  margin-top: 30px;
+  border-radius: 100px;
+  background-color: #e0e0e0;
+  color: #5db075;
+  border-color: #5db075;
+  border-style: solid;
+  border-width: 2px;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.setup-sign-up-button:hover {
+  cursor: pointer;
+  color: #e0e0e0;
+  background-color: #5db075;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

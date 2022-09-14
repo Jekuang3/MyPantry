@@ -1,0 +1,30 @@
+{
+  "name": "my-pantry",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "nodemon ./bin/www"
+  },
+  "dependencies": {
+    "@react-google-maps/api": "^2.7.0",
+    "bcryptjs": "^2.4.3",
+    "bluebird": "^3.7.2",
+    "cookie-parser": "~1.4.4",
+    "cors": "^2.8.5",
+    "debug": "~2.6.9",
+    "express": "~4.16.1",
+    "express-jwt": "^6.1.0",
+    "extend": "^3.0.2",
+    "formidable": "^2.0.1",
+    "fs": "0.0.1-security",
+    "http-errors": "~1.6.3",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.0.12",
+    "morgan": "~1.9.1",
+    "pug": "2.0.0-beta11"
+  },
+  "devDependencies": {
+    "dotenv": "^10.0.0",
+    "nodemon": "^2.0.14"
+  }
+}

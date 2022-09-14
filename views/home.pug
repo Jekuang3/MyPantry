@@ -1,0 +1,21 @@
+doctype html
+html
+
+  head
+    title= "MyPantry"
+    link(rel='stylesheet', href='/css/Home.css')
+    link(rel='stylesheet', href='/css/Dashboard.css')
+    link(rel='stylesheet', href='/css/SignUp.css')
+    link(rel='stylesheet', href='/css/Card.css')
+  body
+    div(class="screen")
+      div(class="App")
+        button(class="pantry-button" type="button")
+          h1(class="pantry-title")="MyPantry"
+        div(class="flex-container")
+          h1(class="tab-text")="Top"
+          h1(class="tab-text")="Pantries"
+          h1(class="tab-text")="Tags"
+      block content
+
+

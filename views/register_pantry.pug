@@ -1,0 +1,31 @@
+extends home
+
+block content
+  br
+  br
+  br
+
+  div(class="email-password-flex")
+    div(class="center-form")
+
+      form(action="/pantries/" method="POST")
+        p="Pantry Name"
+        input(class="input" type="text" placeholder="Pantry Name" 
+        name="name")
+        p="About"
+        textarea(class="input about" placeholder="About" name="pantryBio")
+        p="Location"
+        input(class="input" type="text" placeholder="Location" 
+        name="location")
+
+        //- input(class="input about" type="text", placeholder="About" name="pantryBio")
+        button(class="login-button" type="submit")="Submit"
+      //- p="Password"
+      //- input(class="input" type="text" placeholder="Password")
+      //- p="Confirm Password"
+      //- input(class="input" type="text" placeholder="Confirm Password")
+  br
+  br
+  div(class="login")
+    //- button(class="login-button" type="submit")="Submit"
+

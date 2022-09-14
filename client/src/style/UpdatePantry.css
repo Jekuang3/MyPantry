@@ -1,0 +1,159 @@
+.screen {
+  background-color: #e0e0e0;
+  height: 900px;
+}
+.App {
+  display: flex;
+  flex-direction: column;
+  height: 250px;
+  background: #f2f2f2;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  /* margin-top: -20px; */
+}
+.pantry-button {
+  border-width: 0;
+  background-color: #f2f2f2;
+}
+.pantry-title {
+  color: #577a3b;
+  font-family: "Playfair Display";
+  font-style: bold;
+  font-size: 70px;
+  width: 500px;
+}
+
+.login-signup-flex {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 500px;
+}
+
+.setup-button {
+  border-width: 0;
+  background-color: #f2f2f2;
+  height: 20px;
+  font-weight: bold;
+}
+.line {
+  width: 100px;
+  height: 100px;
+}
+.email-text {
+  margin-left: -200px;
+}
+.username-text {
+  margin-left: -230px;
+}
+
+.password-text {
+  margin-left: -230px;
+}
+.confirm-password-text {
+  margin-left: -170px;
+}
+
+.name-bio-location-flex {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  width: 319px;
+  /* align-items: center; */
+  /* margin-top: 500px; */
+}
+
+.email-input {
+  background-color: #f6f6f6;
+  border-width: 0;
+  border-radius: 8px;
+  height: 40px;
+  width: 300px;
+  padding-left: 10px;
+}
+
+.input {
+  background-color: #f6f6f6;
+  border-width: 0;
+  border-radius: 8px;
+  height: 40px;
+  width: 300px;
+  padding-left: 10px;
+}
+
+/* .forgotpassword-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #e0e0e0;
+    border-width: 0;
+  } */
+.forgotpassword-button {
+  border-width: 0;
+  background-color: #e0e0e0;
+  margin-left: -200px;
+  color: #60a7db;
+}
+
+.login {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* margin-left: -260px; */
+}
+
+.update-button {
+  width: 120px;
+  height: 51px;
+  margin-top: 30px;
+  border-radius: 100px;
+  font-size: 14px;
+  background-color: #e0e0e0;
+  color: #5db075;
+  border-width: 2px;
+  border-style: solid;
+  border-color: #5db075;
+  font-weight: bold;
+}
+.update-button:hover {
+  background-color: #5db075;
+  color: #e0e0e0;
+  cursor: pointer;
+}
+.update-pantry-link {
+  color: white;
+  background-color: #5db075;
+  text-decoration: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
